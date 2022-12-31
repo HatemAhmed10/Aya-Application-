@@ -1,4 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
+import 'package:aya/presentation/screens/0Splash_Screen/splash_view.dart';
 import 'package:aya/presentation/screens/1New_Design/Page1_Screen.dart';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Page1_Screen(),
+      home: SplashView(),
     );
   }
 }
